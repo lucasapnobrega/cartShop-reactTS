@@ -1,0 +1,68 @@
+.accordionCategories {
+  width: 100%;
+}
+
+.accordionBox {
+  margin: 1rem 0;
+}
+
+.accordionBox .title {
+  padding: 0.8rem;
+  background-color: #373772;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  transition: all .4s;
+}
+
+.accordionBox .title:hover {
+  background-color: #28288d;
+}
+
+.accordionBox .content {
+  background-color: #fff;
+  height: 0;
+  overflow-y: scroll;
+  transition: all .4s;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0px 0px 6px 6px;
+}
+
+.accordionBox.active .title {
+  border-radius: 6px 6px 0 0;
+}
+
+.accordionBox.active .content {
+  height: 130px;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.categoryInfo {
+  display: flex;
+  justify-content: space-between;
+  transition: all .4s;
+  padding: 0.6rem 0.8rem;
+}
+
+.categoryInfo:hover {
+  background-color: #ebebeb;
+}
+
+.trashIcon {
+  color: #e72333;
+  cursor: pointer;
+  transition: all .4s;
+}
+
+.trashIcon:hover {
+  color: #b41f2b;
+}
+
+.textNotFoundCate {
+  padding: 1rem;
+}

@@ -1,0 +1,36 @@
+.inputGroup {
+  position: relative;
+}
+
+.inputGroup .input {
+  padding: 0.6rem 0.4rem;
+  background-color: transparent;
+  border: 2px solid #ccc;
+  width: 100%;
+  outline: none;
+  border-radius: 4px;
+}
+
+.label {
+  position: absolute;
+  top: 0.7rem;
+  left: 0.6rem;
+  transition: all .4s;
+  color: #6e6c6c;
+  font-size: 0.9rem;
+  pointer-events: none;
+}
+
+.input:focus ~ .label {
+  top: -10px;
+  background-color: #e4e6e7;
+  color: #000;
+  font-weight: bold;
+}
+
+.labelFocus {
+  top: -10px !important;
+  background-color: #e4e6e7;
+  color: #000;
+  font-weight: bold;
+}

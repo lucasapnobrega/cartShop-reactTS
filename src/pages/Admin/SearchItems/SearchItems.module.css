@@ -1,0 +1,62 @@
+.inputGroup {
+  position: relative;
+  margin-top: 1.6rem;
+}
+
+.inputGroup .input {
+  padding: 0.6rem 0.4rem;
+  background-color: transparent;
+  border: 2px solid #ccc;
+  /*width: 250px;*/
+  width: 100%;
+  outline: none;
+  border-radius: 8px;
+  position: relative;
+}
+
+.label {
+  position: absolute;
+  top: 0.7rem;
+  left: 0.6rem;
+  transition: all .4s;
+  color: #6e6c6c;
+  font-size: 0.9rem;
+  pointer-events: none;
+}
+
+.input:focus ~ .label {
+  top: -10px;
+  background-color: #e4e6e7;
+  color: #000;
+  font-weight: bold;
+}
+
+.labelFocus {
+  top: -10px !important;
+  background-color: #e4e6e7;
+  color: #000;
+  font-weight: bold;
+}
+
+.close {
+  position: absolute;
+  top: 0.8rem;
+  right: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+
+@media (min-width: 1024px) {
+  .inputGroup .input {
+    width: 300px;
+  }
+
+  .close {
+    position: absolute;
+    top: 0.8rem;
+    left: 17rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+}

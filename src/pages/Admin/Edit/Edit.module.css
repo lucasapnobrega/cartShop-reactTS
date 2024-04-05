@@ -1,0 +1,11 @@
+.editContainer {
+  background-color: #e4e6e7;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.editContainer form {
+  width: 350px;
+}

@@ -1,0 +1,56 @@
+td {
+  min-width: 150px;
+}
+
+.tableQuantity {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.tableQuantity span {
+  font-size: 1.1rem;
+}
+
+.tableQuantity span svg {
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: all .4s;
+}
+
+.tableQuantity span svg:hover {
+  color: #858282;
+}
+
+.deleteIcon {
+  color: #e72333;
+  font-size: 1.4rem;
+  text-align: center;
+  padding-right: 8rem !important;
+  cursor: pointer;
+  transition: all .4s;
+}
+
+.deleteIcon:hover {
+  color: #b41f2b;
+}
+
+.blockButton svg {
+  pointer-events: none;
+  color: #838080;
+}
+
+.tableLine td:not(:first-child) {
+  width: 185px;
+}
+
+@media (min-width: 1024px) {
+  .tableLine td:not(:first-child) {
+    width: 150px;
+  }
+
+  .deleteIcon {
+    padding-right: 5rem !important;
+  }
+}
+

@@ -1,0 +1,59 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.6rem;
+  background-color: #e4e6e7;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  transition: all .4s;
+  /*width: 45%;*/
+  width: 100%;
+  text-align: center;
+}
+
+.card:hover {
+  background-color: #ddd8d8;
+}
+
+.buttonGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.btn {
+  border: none;
+  padding: 0.4rem 1rem;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all .4s;
+  margin-top: 0.4rem;
+  width: 180px;
+  margin: 0 auto;
+  font-size: 0.9rem;
+}
+
+.deleteBtn {
+  background-color: #e72333;
+}
+
+.deleteBtn:hover {
+  background-color: #b32a35;
+}
+
+.editBtn {
+  background-color: #65a3f3;
+  color: #000;
+}
+
+.editBtn:hover {
+  background-color: #5889c9;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 46%;
+  }
+}

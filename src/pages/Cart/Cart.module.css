@@ -1,0 +1,68 @@
+.containerCart {
+  width: 100%;
+  margin: 7rem auto;
+}
+
+.containerCart h1 {
+  padding-bottom: 0.8rem;
+}
+
+.tableOverflow {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table {
+  border-top: 1px solid #ccc;
+  border-spacing: 1rem 3rem;
+  width: 100%;
+}
+
+.table th {
+  text-align: left;
+}
+
+.cartEnd {
+  border-top: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.subtotal {
+  font-style: italic;
+  padding-top: 0.6rem;
+}
+
+.btn {
+  background-color: #008000;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  transition: all .4s;
+}
+
+.backBtn {
+  padding: 0.6rem 1.4rem;
+}
+
+.finalizeBtn {
+  padding: 0.6rem 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+}
+
+.btn:hover {
+  background-color: #268a26;
+  transform: translateX(2px);
+}
+
+@media (min-width: 1500px) {
+  .containerCart {
+    width: 1400px;
+  }
+}

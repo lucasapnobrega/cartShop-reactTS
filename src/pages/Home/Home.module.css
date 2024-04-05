@@ -1,0 +1,64 @@
+.wrapperCards {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0 2rem 0;
+}
+
+.wrapperCards > div {
+  margin-bottom: 2rem;
+}
+
+.title {
+  margin-top: 4.6rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  font-size: 2.4rem;
+}
+
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+  place-content: center;
+  gap: 3rem;
+}
+
+.titleLine {
+  display: flex;
+  align-items: center;
+}
+
+.titleLine .titleCategory {
+  margin-right: 1rem;
+  margin-bottom: 1.6rem;
+  font-family: "Imbue", serif;
+  font-size: 2.6rem;
+  font-weight: 400;
+}
+
+.titleLine .line {
+  flex-grow: 1;
+  background-image: linear-gradient(to right, #49747a, transparent);
+  margin-bottom: 1.2rem;
+  height: 2px;
+}
+
+@media (min-width: 768px) {
+  .wrapperCards {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .title {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1400px) {
+  .cardsContainer {
+    place-content: initial;
+    padding-left: 1.8rem;
+  }
+}

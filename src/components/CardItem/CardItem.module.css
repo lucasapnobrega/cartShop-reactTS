@@ -1,0 +1,73 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 315px;
+  max-height: 515px;
+  background-color: #fff;
+  padding: 1rem 0;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+  padding: 1.4rem 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  gap: 1rem;
+}
+
+.card img {
+  width: 200px;
+  min-height: 225px;
+  margin: 0 auto;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+
+.card .title {
+  text-align: center;
+}
+
+.price {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.05rem;
+}
+
+
+.btnAdd {
+  border: none;
+  background-color: #008000;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  transition: all .4s;
+}
+
+.btnAdd:hover {
+  background-color: #336d24;
+}
+
+select {
+  background-color: #ebe5e5;
+  border: 1px solid #ccc;
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  outline: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+select:focus {
+  border-color: #0e55a1;
+}
+
+.textNoStock {
+  color: #d64444;
+  font-style: italic;
+  text-align: center;
+  font-weight: bold;
+}

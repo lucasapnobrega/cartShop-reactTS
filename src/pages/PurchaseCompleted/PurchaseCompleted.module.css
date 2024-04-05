@@ -1,0 +1,110 @@
+.purchaseCompletedContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding-bottom: 7rem;
+}
+
+.titleGroup {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.titleGroup h1 svg, .titleGroup h2 svg {
+  font-size: 1.6rem;
+  margin-left: 0.4rem;
+}
+
+.titleGroup h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 1.2rem;
+}
+
+.titleGroup h1 {
+  font-size: 1.6rem;
+}
+
+.titleGroup .title svg {
+  color: green;
+}
+
+.titleGroup .subtitle {
+  color: #4b4a4a;
+  font-style: italic;
+}
+
+ul {
+  margin-left: 1.6rem;
+  margin-top: 0.6rem;
+}
+
+.wrapperCards {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  padding: 3rem 2rem 4rem;
+  border-radius: 8px;
+  position: relative;
+}
+
+.total {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  padding: 0.6rem 1rem;
+  border-radius: 6px 0 0;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+.img {
+  max-width: 100%;
+  width: 400px;
+  text-align: center;
+}
+
+.btnBack {
+  position: absolute;
+  bottom: 2rem;
+  left: 1.6rem;
+  background-color: #008000;
+  color: #fff;
+  padding: 0.8em;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  border-radius: 6px;
+  transition: all .4s;
+}
+
+.btnBack:hover {
+  background-color: #37682b;
+}
+
+@media (min-width: 1024px) {
+  .titleGroup h1 svg, .titleGroup h2 svg {
+    font-size: 1.8rem;
+  }
+
+  .titleGroup h2 {
+    font-size: 1.6rem;
+  }
+
+  .titleGroup h1 {
+    font-size: 1.8rem;
+  }
+
+  .wrapperCards {
+    width: 550px;
+  }
+
+  .btnBack {
+    bottom: 2rem;
+    left: 2.6rem;
+  }
+}

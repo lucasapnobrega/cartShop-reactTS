@@ -1,0 +1,122 @@
+.containerAdmin {
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.mainTitle, .title {
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
+
+.currentItems {
+  width: 100%;
+}
+
+.currentItems select {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.wrapperItems {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.exitBtn {
+  position: fixed;
+  left: 0.8rem;
+  bottom: 0.8rem;
+  background-color: #e72333;
+  padding: 0.8rem 1.2rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  border-radius: 6px;
+}
+
+.exitBtn svg {
+  font-size: 1.2rem;
+}
+
+@media (min-width: 768px) {
+  .wrapperItems {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 1024px) {
+  .currentItems select {
+    width: auto;
+  }
+
+  .mainTitle, .title {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .containerAdmin {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1720px) {
+  .containerAdmin {
+    gap: 25rem;
+  }
+}
+
+/*
+.containerAdmin {
+  display: flex;
+  justify-content: space-around;
+}
+
+.containerAdmin .content {
+  width: 100%;
+}
+
+.currentItems {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 0 2.5rem;
+}
+
+.title {
+  margin: 1.5rem 0 2.5rem;
+  letter-spacing: 2px;
+}
+
+.wrapperItems {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.exitBtn {
+  position: fixed;
+  left: 2rem;
+  bottom: 2rem;
+  background-color: #e72333;
+  padding: 0.8rem 1.2rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  border-radius: 6px;
+}
+
+.exitBtn svg {
+  font-size: 1.2rem;
+}
+*/
