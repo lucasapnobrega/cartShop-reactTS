@@ -1,5 +1,63 @@
 {
-  "items": [],
+  "items": [
+    {
+      "id": "9125",
+      "name": "Geladeira duas portas",
+      "price": 150,
+      "image": "https://img.freepik.com/fotos-premium/geladeira-isolada-em-fundo-branco_978921-5130.jpg",
+      "stock": 10,
+      "category": "Eletrodomésticos"
+    },
+    {
+      "id": "8ccb",
+      "name": "Fogão retrô vermelho",
+      "price": 150,
+      "image": "https://img.freepik.com/fotos-premium/fogao-retro-isolado-em-fundo-branco_1031240-25.jpg",
+      "stock": 20,
+      "category": "Eletrodomésticos"
+    },
+    {
+      "id": "8f7f",
+      "name": "Notebook Samsung",
+      "price": 150,
+      "image": "https://images.tcdn.com.br/img/img_prod/769067/notebook_samsung_book_intel_dual_core_windows_10_home_500gb_4gb_ram_tela_15_6_full_hd_led_branco_853_1_eb6267944294088b580e9ba1ab63466c.jpg",
+      "stock": 16,
+      "category": "Tecnologia"
+    },
+    {
+      "id": "684d",
+      "name": "Mousepad Redragon Sukazu",
+      "price": 150,
+      "image": "https://cdn.awsli.com.br/2500x2500/1938/1938209/produto/115700770/af1411c86d.jpg",
+      "stock": 46,
+      "category": "Tecnologia"
+    },
+    {
+      "id": "9c83",
+      "name": "Máquina de lavar roupa frontal",
+      "price": 500,
+      "image": "https://images.samsung.com/is/image/samsung/uk-washer-wd10t654dbh-wd10t654dbh-s1-frontwhite-300205861?$650_519_PNG$",
+      "stock": 15,
+      "category": "Eletrodomésticos"
+    },
+    {
+      "id": "0cb7",
+      "name": "Mouse Logitech g102",
+      "price": 100,
+      "image": "https://dcdn.mitiendanube.com/stores/003/244/171/products/77dd62cd7695987e2a931ce879353009-3f3b5d8065f58d1ab616878038551798-640-0.png",
+      "stock": 19,
+      "category": "Tecnologia"
+    }
+  ],
   "cartItems": [],
-  "categories": []
+  "categories": [
+    {
+      "id": "3263",
+      "name": "Tecnologia"
+    },
+    {
+      "id": "4dfb",
+      "name": "Eletrodomésticos"
+    }
+  ]
 }
